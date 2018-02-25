@@ -1,0 +1,52 @@
+/* remove default margin and padding from body */
+.page_header {
+  background-color: rgb(224, 222, 222);
+  display: block;
+  height: auto;
+  /* font: bold; */
+  font-family: sans-serif;
+  color: blue;
+  font-weight: normal;
+  overflow : auto;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display:inline-block;
+}
+/* set map, body, and html to 100% of the screen size */
+/* #map,
+body,
+html {
+  height: 100%;
+} */
+
+#map { 
+  
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: auto;
+  height: 600px; 
+  width: 1200px;
+}
+
+.legend {
+  line-height: 18px;
+  color: 'black';
+  background-color: aliceblue;
+  padding-right: 2mm;
+  opacity: 0.7;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
